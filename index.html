@@ -1,0 +1,45 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encuesta con JavaScript</title>
+</head>
+<body>
+    
+    <h1>¡Encuesta sobre Libros!</h1>
+    <div class="encuesta">
+        <div class="pregunta">
+            <p>1.- ¿Te gusta leer libros de ficción?</p>
+            <label><input type="radio" name="p1" value="Sí">Sí</label>
+            <label><input type="radio" name="p1" value="Casi Todo">Casi Todo</label>
+            <label><input type="radio" name="p1" value="Casi Nada">Casi Nada</label>
+            <label><input type="radio" name="p1" value="No">No</label>
+        </div>
+        <div class="pregunta">
+            <p>2.- ¿Lees regularmente libros de no ficción?</p>
+            <label><input type="radio" name="p2" value="Sí">Sí</label>
+            <label><input type="radio" name="p2" value="Casi Todo">Casi Todo</label>
+            <label><input type="radio" name="p2" value="Casi Nada">Casi Nada</label>
+            <label><input type="radio" name="p2" value="No">No</label>
+        </div>
+        <div class="pregunta">
+            <p>3.- ¿Prefieres leer libros en formato digital o impreso?</p>
+            <label><input type="radio" name="p3" value="Digital">Digital</label>
+            <label><input type="radio" name="p3" value="Impreso">Impreso</label>
+            <label><input type="radio" name="p3" value="Ambos">Ambos</label>
+        </div>
+        <button onclick="enviarEncuesta()">Enviar</button>
+    </div>
+    <div class="resultados" id="resultados">
+        <h2>Resultados de la encuesta:</h2>
+        <p id="resultado1"></p>
+        <p id="resultado2"></p>
+        <p id="resultado3"></p>
+    </div>
+    
+</body>
+
+<script src="js/script.js"></script>
+
+</html>

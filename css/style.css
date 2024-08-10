@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f3f3f3;
+}
+h1 {
+    background-color: #d200fc;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: white;
+    border-radius: 10px;
+}
+button {
+    background-color: #d200fc;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff7f50;
+}
+
+.encuesta {
+    background-color: #ff7f50;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 0 auto;
+    width: 50%;
+    font-weight: bold;
+    color: white;   
+}
+label {
+    display: block;
+    margin: 10px 0;
+    
+}
+
+.pregunta {
+    margin: 15px 0;
+}
+
+.resultados {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    width: 50%;
+    display: none;
+    font-weight: bold;
+    color: #ff7f50;
+    text-align: left;
+    line-height: 1.5;
+    font-size: 18px;
+}
